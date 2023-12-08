@@ -1,45 +1,23 @@
-# Node modules
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Dependency directories
-/*/node_modules/
-/.pnp/
+# dependencies
+/node_modules
+/.pnp
 .pnp.js
 
-# Cached files
-*.pnp
-*.pnp.js
-*.zip
-*.rar
+# testing
+/coverage
 
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Editor files
-.vscode/
-.idea/
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.swp
-
-# Build output
+# production
 /build
-/dist
-/.next
-/out
-/.nuxt
-/public
 
-# Environment variables
+# misc
+.DS_Store
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
-# Miscellaneous
-.DS_Store
-Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
